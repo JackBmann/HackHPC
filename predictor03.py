@@ -45,8 +45,11 @@ newKeys.append("revRollCnt")
 newData = [[0.0]*stoDataLen]*revDataWidth
 for ix, rev in revData.iterrows():
     t = rev[0]
-    t = int(t) # convert time to DATE ONLY
-    i = t # get the time related to that date
+    # get the time related to that date
+    for i, stockTime in enumerate(stoData[stoDataKeys[0]]):
+        if stockTime > t:
+            break
+    i -= 1 
     # update all values within the rolling average
     for j in range(i, min(stoDataLen, i+rollLength)):
         for d in range(revDataWidth-1):
