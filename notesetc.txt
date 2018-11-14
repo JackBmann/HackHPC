@@ -1,0 +1,34 @@
+Cloudy Cluster
+spin up time is the only queue time
+
+TODO:
+
+scrape reviews of products by manufacturer
+
+review sites:
+https://www.productreview.com.au/p/apple-macbook-pro-retina-13-inch.html
+https://thewirecutter.com/reviews/best-macbooks/
+https://www.engadget.com/2018/07/23/macbook-pro-review-2018/
+https://www.pcmag.com/review/362565/apple-macbook-pro-13-inch-2018-touch-bar
+https://www.laptopmag.com/reviews/laptops/macbook-pro-13-inch-with-touch-bar
+https://www.techradar.com/reviews/macbook-pro
+https://www.digitaltrends.com/laptop-reviews/apple-macbook-pro-13-inch-touch-bar-review/
+https://www.wired.com/review/apple-macbook-pro-2018/
+
+project ideas
+mess around with the Navier Stokes Equation - https://www.youtube.com/watch?v=_UoTTq651dE
+disprove Barnette's conjecture by checking more graphs - https://en.wikipedia.org/wiki/Barnette%27s_conjecture (use plantree to generate graphs and a SAT solver to check if they contradict Barnette!)
+
+Get data on disk - amazon reviews of Lenovo laptops
+Get stock data on Lenovo vs. Time - google stocks (
+
+goals:
+viability and usefulness (20pts)
+creativity of execution "the wow effect" (30pts)
+technical complexity (20pts)
+collaboration "did the team accopmlish everything they intended" (20pts)
+Presentation "did the team present a functioning solution (in time limit of 5 min)" (10pts)
+
+Sign in:
+chmod 400 JackB.pem
+sudo ssh -i JackB.pem ec2-user@<public-DNS> <--- This address is from the site, very visible
